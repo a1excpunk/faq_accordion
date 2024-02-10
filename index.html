@@ -119,13 +119,13 @@
   <script>
     let answers = document.querySelectorAll(".answer");
     let questions = document.querySelectorAll(".question");
-    let open_close_icon = document.querySelectorAll(".open_close_icon");
+    let open_close_icons = document.querySelectorAll(".open_close_icon");
 
     for (let index = 0; index < questions.length; index++) {
       const question = questions[index];
       question.addEventListener("click", () => {
         answers[index].classList.toggle("show_answer");
-        open_close_icon[index].src = `./assets/images/icon-${
+        open_close_icons[index].src = `./assets/images/icon-${
           answers[index].classList.contains("show_answer") ? "minus" : "plus"
         }.svg`;
       });
