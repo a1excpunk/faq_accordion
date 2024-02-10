@@ -86,4 +86,7 @@ body main.faq_container li .question_container .answer {
 body main.faq_container li .question_container .show_answer {
   opacity: 1;
   position: relative;
+}
+body footer .attribution a {
+  color: hsl(281, 83%, 54%);
 }/*# sourceMappingURL=style.css.map */
