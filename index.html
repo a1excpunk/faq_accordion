@@ -109,5 +109,15 @@
       </div>
     </footer>
   </body>
-  <script></script>
+  <script>
+    let answers = document.querySelectorAll(".answer");
+    let questions = document.querySelectorAll(".question");
+
+    for (let index = 0; index < questions.length; index++) {
+      const question = questions[index];
+      question.addEventListener("click", () => {
+        answers[index].classList.toggle("show_answer")
+      });
+    }
+  </script>
 </html>
