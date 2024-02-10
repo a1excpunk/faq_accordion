@@ -37,11 +37,13 @@ body .background_pattern {
   background-size: cover;
 }
 body main.faq_container {
+  margin: 0 20px;
   margin-bottom: 100px;
   background-color: hsl(0, 0%, 100%);
   padding: 40px;
   max-width: 600px;
   border-radius: 20px;
+  box-shadow: 5px 5px 10px rgba(159, 116, 163, 0.2588235294);
 }
 body main.faq_container h1 {
   font-size: 3.5em;
@@ -84,8 +86,12 @@ body main.faq_container li .question_container .answer {
   opacity: 0;
 }
 body main.faq_container li .question_container .show_answer {
+  transition: opacity 500ms ease;
   opacity: 1;
   position: relative;
+}
+body footer .attribution {
+  font-size: 14px;
 }
 body footer .attribution a {
   color: hsl(281, 83%, 54%);
