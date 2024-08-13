@@ -21,5 +21,5 @@ Your users should be able to:
 
 ## Deploying project
 
-- [GitHub Pages](https://a1excpunk.github.io/faq_accordion/)
+- [GitHub Page](https://a1excpunk.github.io/faq_accordion/)
 
